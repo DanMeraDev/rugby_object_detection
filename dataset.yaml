@@ -1,0 +1,20 @@
+path: .
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+
+names:
+  0: ball
+  1: jersey number
+  2: player
+  3: referee
+
+roboflow:
+  workspace: ian-muyala
+  project: rugby-kgrdw
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ian-muyala/rugby-kgrdw/dataset/3
